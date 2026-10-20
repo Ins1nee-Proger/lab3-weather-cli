@@ -1,0 +1,39 @@
+{
+  "stationName": "Центральна Метеостанція №1",
+  "location": "Львів, Україна",
+  "sensors": [
+    {
+      "id": "sensor-1",
+      "name": "Датчик температури",
+      "type": "temperature",
+      "unit": "°C",
+      "readings": [
+        { "timestamp": "2026-10-20T08:00:00Z", "value": 12.5 },
+        { "timestamp": "2026-10-20T12:00:00Z", "value": 18.2 },
+        { "timestamp": "2026-10-20T16:00:00Z", "value": null },
+        { "timestamp": "2026-10-20T20:00:00Z", "value": 14.0 }
+      ]
+    },
+    {
+      "id": "sensor-2",
+      "name": "Датчик вологості",
+      "type": "humidity",
+      "unit": "%",
+      "readings": [
+        { "timestamp": "2026-10-20T08:00:00Z", "value": 75 },
+        { "timestamp": "2026-10-20T12:00:00Z", "value": 60 },
+        { "timestamp": "2026-10-20T16:00:00Z", "value": 65 }
+      ]
+    },
+    {
+      "id": "sensor-3",
+      "name": "Датчик тиску",
+      "type": "pressure",
+      "unit": "hPa",
+      "readings": [
+        { "timestamp": "2026-10-20T08:00:00Z", "value": 1013 },
+        { "timestamp": "2026-10-20T12:00:00Z", "value": null }
+      ]
+    }
+  ]
+}
